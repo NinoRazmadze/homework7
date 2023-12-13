@@ -32,4 +32,39 @@ header {
 .header_li.active a {
   color: #ed6c30;
 }
+/* section1 */
+.section1 {
+  height: 640px;
+  position: relative;
+}
+.section1_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section_1container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
+.section1_h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #ffffff;
+  text-shadow: 0px 6px 4px #372d23;
+}
+.section1_button {
+  width: 224px;
+  height: 52px;
+  border: 3px solid #fcc21b;
+  box-shadow: 0px 4px 4px 0px #372d23;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 32px;
+  background-color: transparent;
+}
