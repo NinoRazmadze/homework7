@@ -18,6 +18,8 @@ header {
   left: 50%;
   transform: translateX(-50%);
   top: 0;
+  z-index: 1;
+
 }
 .header_ul {
   display: flex;
