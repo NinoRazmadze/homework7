@@ -19,7 +19,6 @@ header {
   transform: translateX(-50%);
   top: 0;
   z-index: 1;
-
 }
 .header_ul {
   display: flex;
@@ -44,12 +43,11 @@ header {
   height: 100%;
   object-fit: cover;
 }
-.section_1container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+.section_1container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .section1_h2 {
   font-size: 48px;
@@ -69,4 +67,112 @@ header {
   color: #ffffff;
   margin-top: 32px;
   background-color: transparent;
+}
+/* section2 */
+.section2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-block: 80px;
+}
+.card {
+  width: 400px;
+  height: 320px;
+  position: relative;
+}
+.card_container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  align-items: center;
+  background-color: rgba(55, 45, 35, 0.8);
+  backdrop-filter: blur(2px);
+}
+.card_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+/* article */
+article {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.article_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1060px;
+  gap: 40px;
+}
+
+.article_header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #372d23;
+
+  /* text-align: left; */
+}
+.article_p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.article_container button {
+  padding: 12px 40px;
+  background-color: #ed6c30;
+  color: #ffffff;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  border: none;
+}
+/* footer */
+footer {
+  display: flex;
+  padding: 32px 300px;
+  
+  justify-content: space-between;
+  background-color: #372d23;
+}
+.footer_left {
+}
+.footer_left h2,
+.footer_right h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer_left li a {
+  color: #b89278;
+}
+.footer_left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer_right ul {
+  display: flex;
+  gap: 16px;
 }
